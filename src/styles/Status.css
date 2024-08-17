@@ -1,0 +1,18 @@
+#status {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#status img {
+	border-radius: 50%;	
+	width: 12%;
+	border: 3px solid #5fd918;
+    margin: 0.9rem;
+}
+
+#recent-updates {
+	color: #025c54;
+	margin: 0;
+	margin-left: 1rem;
+}

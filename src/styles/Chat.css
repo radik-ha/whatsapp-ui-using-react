@@ -1,0 +1,53 @@
+#chat-parent {
+	border-bottom: 0.1rem solid rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+#chat-parent #sub-parent {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#chat-parent #sub-parent img {
+	width: 12%;
+	border-radius: 50%;
+}
+
+#texts * {
+	margin: 0;
+	margin-left: 1rem;
+}
+
+#texts h3 {
+	font-size: 3vw;
+}
+
+#texts span {
+	font-size: 2vw;
+}
+
+#timestamp {
+	font-size: 2vw;
+	color: #1FC555;
+}
+
+@media (max-width: 700px) {
+	#chat-parent #sub-parent img {
+		width: 20%;
+	}
+	#texts h3 {
+		font-size: 5vw;
+	}
+
+	#texts span {
+		font-size: 3vw;
+	}
+
+	#timestamp {
+		font-size: 4vw;
+	}
+}
